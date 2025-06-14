@@ -4,7 +4,7 @@ import { useState } from "react";
 export default function Header() {
   const [show, setShow] = useState(false);
   return (
-    <div className="shadow-xl ring-1 ring-gray-900/5 sticky top-0 bg-gradient-to-r from-slate-800/20 to-slate-700/20 backdrop-blur-md">
+    <div className="z-5 shadow-xl ring-1 ring-gray-900/5 sticky top-0 bg-gradient-to-r from-slate-800/20 to-slate-700/20 backdrop-blur-md">
       <nav className="px-4 py-4 sm:flex sm:items-center sm:justify-between lg:mx-20">
         <section className="flex justify-between">
           <a href="#">

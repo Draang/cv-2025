@@ -3,10 +3,17 @@ import {
   CodeBracketIcon,
   EnvelopeIcon,
 } from "@heroicons/react/24/outline";
+import { calculateAge } from "../helpers";
+import ExperienciaLaboral from "./ExperienciaLaboral";
+import ExperienciaAcademica from "./ExperienciaAcademica";
 
 export default function AboutMe() {
+  const age = calculateAge();
   return (
-    <section className="scroll-mt-20 content-center mx-auto my-10" id="about">
+    <section
+      className="scroll-mt-20 content-center mx-auto my-10 space-y-3 "
+      id="about"
+    >
       <div className=" space-x-2 py-5 grid grid-cols-1 md:grid-cols-2 content-center">
         <div className="content-center align-middle items-center mx-auto">
           <img src="/DSC04266.png" alt="" className="w-[200px] lg:w-[400px]" />
@@ -27,9 +34,9 @@ export default function AboutMe() {
       <div className="py-5 mx-auto">
         <h2 className="font-bold text-2xl text-[#c7d2fe] py-3">Sobre Mi</h2>
         <p className="text-white text-lg">
-          Desarrollador de software con experiencia en el desarrollo de
-          aplicaciones web y móviles. Me especializo en crear soluciones
-          funcionales y eficientes, y estoy en constante búsqueda de
+          Desarrollador de software con {age} años de edad y experiencia en el
+          desarrollo de aplicaciones web y móviles. Me especializo en crear
+          soluciones funcionales y eficientes, y estoy en constante búsqueda de
           oportunidades que me permitan seguir aprendiendo, crecer
           profesionalmente y aportar valor a los proyectos en los que participo
         </p>
@@ -68,12 +75,21 @@ export default function AboutMe() {
         <div className="flex items-start md:items-center justify-start md:justify-start gap-4 md:flex-row flex-col ">
           <button
             role="link"
-            className="relative cursor-pointer bg-[linear-gradient(#fff,#fff),linear-gradient(#b2a8fd,#c7d2fe)] bg-[length:100%_2px,0_2px] bg-[position:100%_100%,0_100%] bg-no-repeat text-white transition-[background-size,color] duration-500 hover:bg-[0_2px,100%_2px] hover:text-[#8678f9] text-xl font-semibold"
+            className="relative index cursor-pointer bg-[linear-gradient(#fff,#fff),linear-gradient(#b2a8fd,#c7d2fe)] bg-[length:100%_2px,0_2px] bg-[position:100%_100%,0_100%] bg-no-repeat text-white transition-[background-size,color] duration-500 hover:bg-[0_2px,100%_2px] hover:text-[#8678f9] text-xl font-semibold"
           >
             Ir a proyectos
           </button>
         </div>
       </div>
+      <ExperienciaLaboral />
+      <ExperienciaAcademica />
+      {/* <iframe
+        src="https://mongoosejs.com/docs/guide.html"
+        width="100%"
+        height="300"
+      >
+        <p>Your browser does not support iframes.</p>
+      </iframe> */}
     </section>
   );
 }
