@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <div
       className="scroll-mt-20 content-center mx-auto my-10 space-y-3 "
-      id="skills"
+      id="contact"
     >
       <h2 className="font-bold text-5xl text-[#d3dbfc] py-3">Contacto</h2>
       <div className="space-y-2 ">
