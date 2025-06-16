@@ -73,12 +73,15 @@ export default function AboutMe() {
         </div>
 
         <div className="flex items-start md:items-center justify-start md:justify-start gap-4 md:flex-row flex-col ">
+         <a href="#projects">
+
           <button
             role="link"
             className="relative index cursor-pointer bg-[linear-gradient(#fff,#fff),linear-gradient(#b2a8fd,#c7d2fe)] bg-[length:100%_2px,0_2px] bg-[position:100%_100%,0_100%] bg-no-repeat text-white transition-[background-size,color] duration-500 hover:bg-[0_2px,100%_2px] hover:text-[#8678f9] text-xl font-semibold"
-          >
+            >
             Ir a proyectos
           </button>
+            </a>
         </div>
       </div>
       <ExperienciaLaboral />
