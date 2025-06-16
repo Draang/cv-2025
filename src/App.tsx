@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
 function App() {
+  const today = new Date();
   return (
     <>
       <Header />
@@ -14,6 +15,13 @@ function App() {
         <Skills />
         <Contact />
       </main>
+      <footer className="py-5">
+        <div className="items-center text-center ">
+          <p className="text-white text-lg">
+            {today.getFullYear()} Angel Emmanuel Contreras Dueñas
+          </p>
+        </div>
+      </footer>
     </>
   );
 }
