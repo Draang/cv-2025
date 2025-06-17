@@ -1,0 +1,13 @@
+{
+  "title": "Bienvenue to react using react-i18next",
+  "header": {
+    "about-me": "A propos de moi",
+    "projects": "Projets",
+    "skills": "Compétences",
+    "contact": "Contact"
+  },
+  "about-me": {},
+  "projects": {},
+  "skills": {},
+  "contact": {}
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Bienvenido to react using react-i18next",
+  "header": {
+    "about-me": "Sobre mi",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "contact": "Contacto"
+  },
+  "about-me": {
+    "hello": "Hola, mi nombre es",
+    "title": "Ingeniero en desarrollo de software",
+    "description": "Desarrollador de software con {{age}} años de edad y experiencia en el desarrollo de aplicaciones web y móviles. Me especializo en crear soluciones funcionales y eficientes, y estoy en constante búsqueda de oportunidades que me permitan seguir aprendiendo, crecer profesionalmente y aportar valor a los proyectos en los que participo",
+    "btn-projects": "Ir a proyectos",
+    "work-exp": {
+      "title": "Experiencia Laboral",
+      "work1": "Desarrollador Frontend Jr",
+      "work1-desc": "Desarrollador de Frontend en <span className='font-bold'>React Native</span> para una aplicación para digitalizar el proceso de negocio de la empresa en todos sus puntos y departamentos",
+      "work2": "Desarrollador de software Jr",
+      "work2-desc": "Desarrollador en proyectos de software enfocados a los  departamentos de Ingenieria y Calidad para la digitalización de  procesos en el <span className='font-bold'>SCADA Ignition</span> y  analisis de datos con <span className='font-bold'>SQL</span>"
+    },
+    "academic-exp": {}
+  },
+  "projects": {},
+  "skills": {},
+  "contact": {}
+}

@@ -1,29 +1,25 @@
+import { useTranslation } from "react-i18next";
 import Card from "./Card";
 
 export default function ExperienciaLaboral() {
+  const { t } = useTranslation("", { keyPrefix: "about-me.work-exp" });
+
   return (
     <div className="space-y-1">
-      <h2 className="font-bold text-2xl text-[#c7d2fe] py-3">
-        Experiencia Laboral
-      </h2>
+      <h2 className="font-bold text-2xl text-[#c7d2fe] py-3">{t("title")}</h2>
 
       <div className="grid  sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         <Card>
           <>
             <div>
               <h2 className="text-2xl text-white font-semibold">
-                Desarrollador Frontend Jr
+                {t("work1")}
               </h2>
               <p className="font-light text-slate-200 text-sm">
                 Ganevales <span className="italic">03/2024 - 03/2025</span>
               </p>
             </div>
-            <p className="text-white">
-              Desarrollador de Frontend en{" "}
-              <span className="font-bold">React Native</span> para una
-              aplicación para digitalizar el proceso de negocio de la empresa en
-              todos sus puntos y departamentos
-            </p>
+            <p className="text-white">{t("work1-desc")}</p>
           </>
         </Card>
 
@@ -31,18 +27,13 @@ export default function ExperienciaLaboral() {
           <>
             <div>
               <h2 className="text-2xl text-white font-semibold">
-                Desarrollador de software Jr
+                {t("work2")}
               </h2>
               <p className="font-light text-slate-200 text-sm">
-                TOM <span className="italic">1/ 2023 - 12/2023</span>
+                Ganevales <span className="italic">03/2024 - 03/2025</span>
               </p>
             </div>
-            <p className="text-white">
-              Desarrollador en proyectos de software enfocados a los
-              departamentos de Ingenieria y Calidad para la digitalización de
-              procesos en el <span className="font-bold">SCADA Ignition</span> y
-              analisis de datos con <span className="font-bold">SQL</span>
-            </p>
+            <p className="text-white">{t("work2-desc")}</p>
           </>
         </Card>
         <Card>
