@@ -4,11 +4,12 @@ import Header from "./components/Header";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import { Suspense } from "react";
+import Spinner from "./components/Spinner";
 function App() {
   const today = new Date();
 
   return (
-    <Suspense fallback="loading">
+    <Suspense fallback={<Spinner/>}>
       <>
         <Header />
         <main className="max-w-screen-2xl mx-auto mt-10 px-5">

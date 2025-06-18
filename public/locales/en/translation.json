@@ -32,22 +32,50 @@
       }
     },
     "academic-exp": {
-      "title": "FORMACIÓN PROFESIONAL",
+      "title": "VOCATIONAL TRAINING",
       "one": {
-        "title": "Ingenieria en desarrollo y gestion de software",
+        "title": "Engineering in software development and management",
         "school": "Universidad Tecnologica de Chihuahua"
       },
       "two": {
-        "title": "Licencia Profesional en Servicios móviles e interfaces nómadas",
-        "school": "IUT 1 Grenoble Francia"
+        "title": "Professional License in Mobile Services and Nomadic Interfaces",
+        "school": "IUT 1 Grenoble France"
       },
       "three": {
-        "title": "TSU Desarrollo de software multiplataforma",
+        "title": "TSU Multiplatform software development",
         "school": "Universidad Tecnologica de chihuahua"
       }
     }
   },
-  "projects": {},
-  "skills": {},
-  "contact": {}
+  "projects": {
+    "title": "Projects",
+    "btn": "Go to page",
+    "project1": {
+      "title": "Cocktail recipe finder",
+      "description": "Application developed in React that allows the user to search for cocktail recipes from the name of the drink or its ingredients. It uses an external API to display details such as ingredients, preparation instructions and an image of the cocktail."
+    },
+    "project2": {
+      "title": "Temperature Finder",
+      "description": "React project that displays the current temperature and weather of a city entered by the user. It consumes a weather API (such as OpenWeatherMap) and presents data such as temperature, humidity and sky state in real time."
+    },
+    "project3": {
+      "title": "Calorie Counter",
+      "description": "Interactive application built with React to calculate the calories consumed during the day. The user can add foods, assign calorie values to them and keep track of the daily total. Ideal for those who follow a diet or want to monitor their nutrition."
+    },
+    "project4": {
+      "title": "Expense Control",
+      "description": "Tool developed with React to manage personal or family expenses. It allows you to set a budget, record expenses and visualize a graphical summary of the financial status. Useful to improve money management."
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "tec": "Technical skills",
+    "lang": "Languages",
+    "lang_es": "Spanish - Native",
+    "lang_fr": "French - B2",
+    "lang_en": "English"
+  },
+  "contact": {
+    "title": "Contact"
+  }
 }

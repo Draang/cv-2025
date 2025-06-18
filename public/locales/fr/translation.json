@@ -7,47 +7,75 @@
     "contact": "Contact"
   },
   "about-me": {
-    "hello": "Hola, mi nombre es",
-    "title": "Ingeniero en desarrollo de software",
-    "description": "Desarrollador de software con {{age}} años de edad y experiencia en el desarrollo de aplicaciones web y móviles. Me especializo en crear soluciones funcionales y eficientes, y estoy en constante búsqueda de oportunidades que me permitan seguir aprendiendo, crecer profesionalmente y aportar valor a los proyectos en los que participo",
-    "btn-projects": "Ir a proyectos",
+    "hello": "Salut, je m'appelle",
+    "title": "Ingénieur en développement de logiciels",
+    "description": "Développeur de logiciels avec {{age}} ans d'âge et d'expérience dans le développement d'applications web et mobiles. Je suis spécialisé dans la création de solutions fonctionnelles et efficaces, et je suis constamment à la recherche d'opportunités qui me permettent de continuer à apprendre, de me développer professionnellement et d'apporter une valeur ajoutée aux projets auxquels je participe.",
+    "btn-projects": "Voir les projets",
     "work-exp": {
-      "title": "Experiencia Laboral",
+      "title": "Expérience professionnelle",
       "work1": {
-        "title": "Desarrollador Frontend Jr",
-        "desc": "Desarrollador de Frontend en <2>React Native</2> para una aplicación para digitalizar el proceso de negocio de la empresa en todos sus puntos y departamentos"
+        "title": "Développeur Frontend Jr",
+        "desc": "Développeur frontend en <2>React Native</2> pour une application visant à numériser le processus commercial de l'entreprise dans tous ses points et départements"
       },
       "work2": {
-        "title": "Desarrollador de software Jr",
-        "desc": "Desarrollador en proyectos de software enfocados a los  departamentos de Ingenieria y Calidad para la digitalización de  procesos en el <1>SCADA Ignition</1> y  analisis de datos con <1>SQL</1>"
+        "title": "Développeur de logiciels jr",
+        "desc": "Développeur dans des projets logiciels axés sur les départements d'ingénierie et de qualité pour la numérisation des processus dans <1>SCADA Ignition</1> et l'analyse des données avec <1>SQL</1>"
       },
       "work3": {
-        "title": "Desarrollador",
-        "desc": "Participé en el desarrollo aplicaciones y componentes frontend y backend, contribuyendo en varios proyectos con la tecnologia de <1>NextJs (react) y React native</1>."
+        "title": "Développeur",
+        "desc": "J'ai participé au développement d'applications et de composants frontend et backend, en contribuant à plusieurs projets avec les technologies <1>NextJs (react) et React native</1>."
       },
       "work4": {
-        "title": "Desarrollador en estadias",
-        "loc": "Inria (Grenoble, Francia)",
-        "desc": "Creación de interfaz web en <2>React</2> y desarrollo de la integración del backend desarrollado en <2>Python</2> para la interfaz web"
+        "title": "Stages professionnels",
+        "loc": "Inria (Grenoble, France)",
+        "desc": "Création d'une interface web en <2>React</2> et développement d'une intégration backend développée en <2>Python</2> pour l'interface web"
       }
     },
     "academic-exp": {
-      "title": "FORMACIÓN PROFESIONAL",
+      "title": "FORMATION PROFESSIONNELLE",
       "one": {
-        "title": "Ingenieria en desarrollo y gestion de software",
-        "school": "Universidad Tecnologica de Chihuahua"
+        "title": "Développement de logiciels et ingénierie de gestion",
+        "school": "Universidad Tecnologica de Chihuahua (UTCH)"
       },
       "two": {
-        "title": "Licencia Profesional en Servicios móviles e interfaces nómadas",
-        "school": "IUT 1 Grenoble Francia"
+        "title": "Licence professionnelle en services mobiles et interfaces nomades",
+        "school": "IUT 1 Grenoble France"
       },
       "three": {
-        "title": "TSU Desarrollo de software multiplataforma",
-        "school": "Universidad Tecnologica de chihuahua"
+        "title": "TSU Développement de logiciels multiplateformes",
+        "school": "Universidad Tecnologica de Chihuahua (UTCH)"
       }
     }
   },
-  "projects": {},
-  "skills": {},
-  "contact": {}
+  "projects": {
+    "title": "Projets",
+    "btn": "Aller à la page",
+    "project1": {
+      "title": "Recherche de recettes de cocktails",
+      "description": "Application développée en React qui permet à l'utilisateur de rechercher des recettes de cocktails en se basant sur le nom de la boisson ou ses ingrédients. Elle utilise une API externe pour afficher des détails tels que les ingrédients, les instructions de préparation et une image du cocktail"
+    },
+    "project2": {
+      "title": "Temperature finder",
+      "description": "Projet React qui affiche la température et la météo actuelles d'une ville saisie par l'utilisateur. Il utilise une API météorologique (telle que OpenWeatherMap) et présente des données telles que la température, l'humidité et l'état du ciel en temps réel."
+    },
+    "project3": {
+      "title": "Calorie Counter",
+      "description": "Application interactive construite avec React pour calculer les calories consommées au cours de la journée. L'utilisateur peut ajouter des aliments, leur attribuer des valeurs caloriques et suivre le total quotidien. Idéal pour ceux qui suivent un régime ou veulent surveiller leur alimentation."
+    },
+    "project4": {
+      "title": "Contrôle des coûts",
+      "description": "Outil développé avec React pour gérer les dépenses personnelles ou familiales. Il permet d'établir un budget, d'enregistrer les dépenses et de visualiser un résumé graphique de la situation financière. Utile pour améliorer la gestion de l'argent."
+    }
+  },
+   "skills": {
+    "title": "Compétences",
+    "tec": "Compétences techniques",
+    "lang": "Langues",
+    "lang_es": "Espagnol - langue maternelle",
+    "lang_fr": "Français - B2",
+    "lang_en": "Anglais"
+  },
+  "contact": {
+    "title":"Contact"
+  }
 }

@@ -41,13 +41,41 @@
         "title": "Licencia Profesional en Servicios móviles e interfaces nómadas",
         "school": "IUT 1 Grenoble Francia"
       },
-      "three":{
+      "three": {
         "title": "TSU Desarrollo de software multiplataforma",
         "school": "Universidad Tecnologica de chihuahua"
       }
     }
   },
-  "projects": {},
-  "skills": {},
-  "contact": {}
+  "projects": {
+    "title": "Proyectos",
+    "btn": "Ir a pagina",
+    "project1": {
+      "title": "Buscador de recetas para cocteles",
+      "description": "Aplicación desarrollada en React que permite al usuario buscar recetas de cócteles a partir del nombre del trago o sus ingredientes. Utiliza una API externa para mostrar detalles como los ingredientes, instrucciones de preparación y una imagen del cóctel."
+    },
+    "project2": {
+      "title": "Buscador de temperaturas",
+      "description": "Proyecto en React que muestra la temperatura actual y el clima de una ciudad ingresada por el usuario. Consume una API de clima (como OpenWeatherMap) y presenta datos como la temperatura, la humedad y el estado del cielo en tiempo real."
+    },
+    "project3": {
+      "title": "Contador de calorias",
+      "description": "Aplicación interactiva construida con React para calcular las calorías consumidas en el día. El usuario puede agregar alimentos, asignarles valores calóricos y llevar un control del total diario. Ideal para quienes siguen una dieta o quieren monitorear su nutrición."
+    },
+    "project4": {
+      "title": "Control de gastos",
+      "description": "Herramienta desarrollada con React para gestionar los gastos personales o familiares. Permite establecer un presupuesto, registrar egresos y visualizar un resumen gráfico del estado financiero. Útil para mejorar la administración del dinero."
+    }
+  },
+  "skills": {
+    "title": "Habilidades",
+    "tec": "Tecnicas",
+    "lang": "Idiomas",
+    "lang_es": "Español - Nativo",
+    "lang_fr": "Frances - B2",
+    "lang_en": "Inglés"
+  },
+  "contact": {
+    "title":"Contacto"
+  }
 }

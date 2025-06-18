@@ -1,10 +1,14 @@
+import { useTranslation } from "react-i18next";
+
 export default function Contact() {
+  const { t } = useTranslation("", { keyPrefix: "contact" });
+
   return (
     <div
       className="scroll-mt-20 content-center mx-auto my-10 space-y-3 "
-      id="contact" 
+      id="contact"
     >
-      <h2 className="font-bold text-5xl text-[#d3dbfc] py-3">Contacto</h2>
+      <h2 className="font-bold text-5xl text-[#d3dbfc] py-3">{t("title")}</h2>
       <div className="space-y-2 ">
         <ul className="list-disc text-white text-xl mx-5 space-y-2">
           <li>
