@@ -6,7 +6,47 @@
     "skills": "Skillls",
     "contact": "Contact"
   },
-  "about-me": {},
+  "about-me": {
+    "hello": "Hello, my name is",
+    "title": "Software Development Engineer,",
+    "description": "Software developer with {{age}} years of age and experience in web and mobile application development. I specialize in creating functional and efficient solutions, and I am constantly looking for opportunities that allow me to keep learning, grow professionally and bring value to the projects in which I participate.",
+    "btn-projects": "Go to projects",
+    "work-exp": {
+      "title": "Work Experience",
+      "work1": {
+        "title": "Jr. Frontend Developer",
+        "desc": "Frontend Developer in <2>React Native</2> for an application to digitize the company's business process in all its points and departments."
+      },
+      "work2": {
+        "title": "Jr Software Developer",
+        "desc": "Developer in software projects focused on Engineering and Quality departments for the digitization of processes in <1>SCADA Ignition</1> and data analysis with <1>SQL</1>"
+      },
+      "work3": {
+        "title": "Developer",
+        "desc": "I participated in the development of frontend and backend applications and components, contributing to several projects with <2>NextJs (react) and React native</2> technology."
+      },
+      "work4": {
+        "title": "Intership, developer",
+        "loc": "Inria (Grenoble, France)",
+        "desc": "Creation of web interface in <2>React</2> and development of backend integration developed in <2>Python</2> for web interface"
+      }
+    },
+    "academic-exp": {
+      "title": "FORMACIÓN PROFESIONAL",
+      "one": {
+        "title": "Ingenieria en desarrollo y gestion de software",
+        "school": "Universidad Tecnologica de Chihuahua"
+      },
+      "two": {
+        "title": "Licencia Profesional en Servicios móviles e interfaces nómadas",
+        "school": "IUT 1 Grenoble Francia"
+      },
+      "three": {
+        "title": "TSU Desarrollo de software multiplataforma",
+        "school": "Universidad Tecnologica de chihuahua"
+      }
+    }
+  },
   "projects": {},
   "skills": {},
   "contact": {}

@@ -6,7 +6,47 @@
     "skills": "Compétences",
     "contact": "Contact"
   },
-  "about-me": {},
+  "about-me": {
+    "hello": "Hola, mi nombre es",
+    "title": "Ingeniero en desarrollo de software",
+    "description": "Desarrollador de software con {{age}} años de edad y experiencia en el desarrollo de aplicaciones web y móviles. Me especializo en crear soluciones funcionales y eficientes, y estoy en constante búsqueda de oportunidades que me permitan seguir aprendiendo, crecer profesionalmente y aportar valor a los proyectos en los que participo",
+    "btn-projects": "Ir a proyectos",
+    "work-exp": {
+      "title": "Experiencia Laboral",
+      "work1": {
+        "title": "Desarrollador Frontend Jr",
+        "desc": "Desarrollador de Frontend en <2>React Native</2> para una aplicación para digitalizar el proceso de negocio de la empresa en todos sus puntos y departamentos"
+      },
+      "work2": {
+        "title": "Desarrollador de software Jr",
+        "desc": "Desarrollador en proyectos de software enfocados a los  departamentos de Ingenieria y Calidad para la digitalización de  procesos en el <1>SCADA Ignition</1> y  analisis de datos con <1>SQL</1>"
+      },
+      "work3": {
+        "title": "Desarrollador",
+        "desc": "Participé en el desarrollo aplicaciones y componentes frontend y backend, contribuyendo en varios proyectos con la tecnologia de <1>NextJs (react) y React native</1>."
+      },
+      "work4": {
+        "title": "Desarrollador en estadias",
+        "loc": "Inria (Grenoble, Francia)",
+        "desc": "Creación de interfaz web en <2>React</2> y desarrollo de la integración del backend desarrollado en <2>Python</2> para la interfaz web"
+      }
+    },
+    "academic-exp": {
+      "title": "FORMACIÓN PROFESIONAL",
+      "one": {
+        "title": "Ingenieria en desarrollo y gestion de software",
+        "school": "Universidad Tecnologica de Chihuahua"
+      },
+      "two": {
+        "title": "Licencia Profesional en Servicios móviles e interfaces nómadas",
+        "school": "IUT 1 Grenoble Francia"
+      },
+      "three": {
+        "title": "TSU Desarrollo de software multiplataforma",
+        "school": "Universidad Tecnologica de chihuahua"
+      }
+    }
+  },
   "projects": {},
   "skills": {},
   "contact": {}
