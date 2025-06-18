@@ -32,7 +32,7 @@ export default function AboutMe() {
         </div>
       </div>
       <div className="py-5 mx-auto">
-        <h2 className="font-bold text-2xl text-[#c7d2fe] py-3">Sobre Mi</h2>
+        <h2 className="font-bold text-2xl text-[#c7d2fe] py-3">{t("sub-title")}</h2>
         <p className="text-white text-lg">{t("description", { age: age })}</p>
       </div>
       <div className="grid grid-cols-2 gap-4 mt-2">

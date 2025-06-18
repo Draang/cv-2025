@@ -9,6 +9,7 @@
   "about-me": {
     "hello": "Hello, my name is",
     "title": "Software Development Engineer,",
+    "sub-title":"About me",
     "description": "Software developer with {{age}} years of age and experience in web and mobile application development. I specialize in creating functional and efficient solutions, and I am constantly looking for opportunities that allow me to keep learning, grow professionally and bring value to the projects in which I participate.",
     "btn-projects": "Go to projects",
     "work-exp": {

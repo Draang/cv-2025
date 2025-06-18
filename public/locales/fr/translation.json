@@ -9,6 +9,7 @@
   "about-me": {
     "hello": "Salut, je m'appelle",
     "title": "Ingénieur en développement de logiciels",
+    "sub-title":"A propos de moi",
     "description": "Développeur de logiciels avec {{age}} ans d'âge et d'expérience dans le développement d'applications web et mobiles. Je suis spécialisé dans la création de solutions fonctionnelles et efficaces, et je suis constamment à la recherche d'opportunités qui me permettent de continuer à apprendre, de me développer professionnellement et d'apporter une valeur ajoutée aux projets auxquels je participe.",
     "btn-projects": "Voir les projets",
     "work-exp": {
